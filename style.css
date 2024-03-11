@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #13072E;
+    color: white;
+    font-family: "Petit Formal Script", cursive;
+}
+#nav{
+    display: block;
+    height: 17vh;
+}
+#title{
+    position: absolute;
+    top: 7vh;
+    left: 2vw; 
+}
+#finder{
+    position: absolute;
+    top: 8vh;
+    left: 27vw;    
+}
+#logo{
+    display: flex;
+    position: absolute;
+    top: 2vh;
+    left: 90vw;
+    width: 9vw;
+    height: 13.3333333333vh;
+}
+a{
+    padding: 5vw;
+}
+#central{
+    background: linear-gradient(135deg, #13072E, #3F2182);
+    position: absolute;
+    left: 5vw;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 15px;
+}

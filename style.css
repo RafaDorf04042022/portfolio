@@ -32,6 +32,9 @@ body{
 a{
     padding: 5vw;
 }
+a:hover{
+    font-size: 2vw;
+}
 #central{
     background: linear-gradient(135deg, #13072E, #3F2182);
     position: absolute;
@@ -39,4 +42,34 @@ a{
     width: 90vw;
     height: 80vh;
     border-radius: 15px;
+}
+#foto{
+    position: absolute;
+    top:0.5vw;
+    left: 0.6vw;
+    width: 20.8vw;
+    height: 41vh;
+}
+#circulo{
+    position: absolute;
+    top: 8vw;
+    left: 60vw;
+    background: linear-gradient(235deg, rgb(217, 217, 250), #3F2182);
+    width: 22vw;
+    height: 43vh;
+    border-radius: 50%;
+    border-color: blue;
+    border-style: solid;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Orbitron&display=swap');
+h2{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+#subTitle{
+    position: absolute;
+    top: 14vh;
+    left: 7vw;
+    font-size: 8vh;
 }

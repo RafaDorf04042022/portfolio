@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #13072E;       
+  background: none;       
 }
 
 body::-webkit-scrollbar-thumb {
@@ -183,6 +183,7 @@ h2{
     height: 80vh;
     border-radius: 15px;
     z-index: 1000;
+    overflow-x: scroll;
 }
 #title_2{
     position: absolute;
@@ -199,6 +200,14 @@ h2{
     padding: 1vh;
     top: 7vh;
     left: 25vw; 
+    color: aquamarine;
+}
+#work_name_2{
+    position: absolute;
+    font-size: 7vh;
+    padding: 1vh;
+    top: 7vh;
+    left: 95vw; 
     color: aquamarine;
 }
 #repository{
@@ -224,4 +233,34 @@ a{
 }
 a:hover{
     color: aquamarine;
+}
+#parkfinder{
+    position: absolute;
+    padding: 3vh;
+    width: 45vw;
+    top: 22vh;
+    left: 78vw;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+#about_work_text_2{
+    position: absolute;
+    padding: 3vh;
+    width: 20vw;
+    top: 29vh;
+    left: 129vw;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#central_2::-webkit-scrollbar {
+  width: 12px;            
+}
+#central_2::-webkit-scrollbar-track {
+  background: none;       
+}
+#central_2::-webkit-scrollbar-thumb {
+  background-color: #3F2182;    
+  border-radius: 20px;       
+  border: 1px solid white;  
 }

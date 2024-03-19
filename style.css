@@ -264,3 +264,52 @@ a:hover{
   border-radius: 20px;       
   border: 1px solid white;  
 }
+#mold_1{
+    position: absolute;
+    top: 102vh;
+    left: 37vw; 
+    z-index: 200;
+}
+#mold_2{
+    position: absolute;
+    top: 22vh;
+    left: 31vw;
+
+}
+#list{
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+    color: black; 
+    z-index: 2000;  
+}
+.barra{
+    height: 10vh;
+    width: 10vw;
+    z-index: 2000;
+}
+#hard{
+    position: absolute;
+    color: #3F2182;
+    font-size: 8vh;
+    top: 73vh;
+    left: 2vw;
+    font-family: "Petit Formal Script", cursive;
+    border-bottom-style: solid;
+    border-bottom-color: gold;
+}
+footer{
+    position:absolute;
+    font-family: 'Courier New', Courier, monospace;
+    top: 415vh;
+    background-color: #13072E;
+    height: 5vh;
+    width: 100%;
+}
+#logo_2{
+    display: flex;
+    position: absolute;
+    top: 1vh;
+    left: 95vw;
+    height: 7vh;
+}

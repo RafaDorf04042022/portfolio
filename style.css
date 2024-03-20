@@ -160,6 +160,17 @@ h2{
     border-top-style: solid;
     border-bottom: solid;
 }
+#redes{
+    position: absolute;
+    top: 105vh;
+    left: 10vw;
+}
+.redes{
+    width: 5vw;
+}
+.redes:hover{
+    width: 6vw;
+}
 #third{
     position: absolute;
     background-color: #13072E;

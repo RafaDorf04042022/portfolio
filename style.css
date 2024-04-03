@@ -42,7 +42,6 @@ body::-webkit-scrollbar-thumb {
     top: 2vh;
     left: 90vw;
     width: 9vw;
-    height: 13.3333333333vh;
 }
 .a{
     padding: 5vw;
@@ -142,7 +141,7 @@ h2{
     color: blue;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
-    font-size: 8vh;
+    font-size: 4vw;
     top: 62vh;
     left: 68vw;
 }
@@ -329,4 +328,114 @@ footer{
     width: 4vw;
     top: 80vh;
     z-index: 4000;
+    background-color: rgba(240, 248, 255, 0.39);
+    border-radius: 10px;
+}
+#top_btn:hover{
+    background-color: #40218273;
+}
+@media(max-width:500px){
+    *{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        width: 15vh;
+        left: 65vw;
+    }
+    #finder{
+        width: 100vw;
+        left: 6vw;
+        top: 12vh;
+    }
+    #foto{
+        width: 22vw;
+        height: 12vh;
+    }
+    #circulo{
+        width: 24vw;
+        height: 12.5vh;
+        top: 35vh;
+    }
+
+    #second_background{
+        height: 20vh;
+    }
+    #second_background_1{
+        height: 20vh;
+        top: 90vh;
+        left: 18vw;
+    }
+    #content_second{
+        width: 50vw;
+        left: 25vw;
+        top: 20vh;
+    }
+    #about_me_text{
+        width: 50vw;
+        top: 25vh;
+        left: 0vw;
+    }
+    #about_me{
+        font-size: 6vw;
+        left: 75vw;
+        top: 70vh;
+    }
+    #redes{
+        left: 5vw;
+        width: 10vw;
+        top: 70vh;
+    }
+    #work_name{
+        top: 7vh;
+        left: 65vw; 
+        font-size: 8vw;
+    }
+    #work_name_2{
+        top: 8vh;
+        left: 155vw; 
+        font-size: 8vw;
+    }
+    #about_work_text{
+        left: 90vw;
+        width: 30vw;
+    }
+    #about_work_text_2{
+        left: 200vw;
+        width: 35vw;
+    }
+    #parkfinder{
+        left: 140vw;
+        top: 43vh;
+    }
+    #repository{
+        left: 25vw;
+        top: 43vh;
+    }
+    #mold_1{
+        left: 8vw;
+    }
+    #mold_2{
+        left: 0.5vw;
+        width: 99vw;
+    }
+    .barra{
+        width: 40vw;
+    }
+    #list{
+        left: 30vw;
+    }
+    #hard{
+        top: 90vh;
+        font-size: 10vw;
+    }
+    #logo_2{
+        height: 3vh;
+        left: 90vw;
+    }
+    #top_btn{
+        width: 10vw;
+    }
 }

@@ -334,19 +334,13 @@ footer{
 #top_btn:hover{
     background-color: #40218273;
 }
-@media(max-width:500px){
-    *{
-        overflow-x: hidden;
-    }
-    body{
-        overflow-x: hidden;
-    }
+@media(max-width:600px){
     #logo{
         width: 15vh;
-        left: 65vw;
+        left: 70vw;
     }
     #finder{
-        width: 100vw;
+        width: 70vw;
         left: 6vw;
         top: 12vh;
     }
@@ -415,7 +409,7 @@ footer{
         top: 43vh;
     }
     #mold_1{
-        left: 8vw;
+        left: 2vw;
     }
     #mold_2{
         left: 0.5vw;
@@ -437,5 +431,8 @@ footer{
     }
     #top_btn{
         width: 10vw;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
